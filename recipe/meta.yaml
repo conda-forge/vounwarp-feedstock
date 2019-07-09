@@ -1,10 +1,10 @@
 package:
   name: vounwarp
-  version: "1.0"
+  version: "1.1"
 
 source:
-  url: https://github.com/nghia-vo/vounwarp/archive/v1.0.tar.gz
-  sha256: 69cf33b318887fe85ec8c0380e7b4776a8deff29b57d907420034e320844b30a
+  url: https://github.com/nghia-vo/vounwarp/archive/v1.1.tar.gz
+  sha256: e22195467c2c72a3017a0a8fc759840c0ec9361908cd39872b729d0f0cef8a46
 build:
   number: 0
   script: {{ PYTHON }} setup.py install --single-version-externally-managed --record=record.txt
@@ -18,7 +18,6 @@ requirements:
     - python
     - numpy 
     - scipy
-    - opencv
     - scikit-image
     - pillow
     - matplotlib
