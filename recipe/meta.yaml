@@ -6,9 +6,8 @@ source:
   url: https://github.com/nghia-vo/vounwarp/archive/1.2.tar.gz
   sha256: 793f7ddd6d927e215b08ca8d7ffb51b1789fffb91b6ce4ac70aff17e870278e1
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} setup.py install --single-version-externally-managed --record=record.txt
-  noarch: python
 
 requirements:
   host:
@@ -27,10 +26,10 @@ test:
     - vounwarp   
 
 about:
-  home: https://github.com/DiamondLightSource/vounwarp
+  home: https://github.com/nghia-vo/vounwarp
   license:  Apache 2.0
   license_file: LICENSE
-  summary: 'Distortion correction for tomography. https://doi.org/10.1364/OE.23.032859 '
+  summary: 'Distortion correction with high-accuracy for tomography detector systems. https://doi.org/10.1364/OE.23.032859 '
 
 extra:
   recipe-maintainers:
